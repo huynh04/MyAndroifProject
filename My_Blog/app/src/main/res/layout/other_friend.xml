@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="#F2000000"
+    android:layout_marginTop="0dp"
+
+    >
+    <LinearLayout
+        android:id="@+id/LL_FriendChat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+        <androidx.cardview.widget.CardView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:cardCornerRadius="90dp">
+            <ImageView
+                android:id="@+id/FriendImg"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </androidx.cardview.widget.CardView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            >
+            <TextView
+                android:id="@+id/FriendName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FriendName"
+                android:textColor="#BAFFFFFF"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/FriendDes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FriendDes"
+                android:textColor="#BAFFFFFF"
+                android:textSize="15dp"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
